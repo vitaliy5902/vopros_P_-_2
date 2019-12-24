@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Hello Django</title>
+</head>
+<body>
+<h2>Светофор</h2>
+
+
+<table width="420" height="600" >
+<tr>
+    <td  bgcolor= blue valign="center"><center> <img src="{% static 'images/красный.JPG' %}" alt="Stones along the river"></center>
+</td>
+</tr>
+<tr>
+<td  bgcolor= lightgreen valign="center"><center><a href= "/aa"><h2>зелёный</h2></center>
+</td>
+</tr>
+<tr>
+<td  bgcolor= yellow valign="center"><center><a href= "/aa"> <h2>жёлтый</h2></center>
+</td>
+</tr>
+<tr>
+<td  bgcolor= red valign="center"><center><a href= "/aa"> <h2>красный</h2></center>
+</td>
+</tr>
+
+</body>
+</html>
+
+
